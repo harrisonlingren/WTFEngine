@@ -9,7 +9,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 */
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	height: 100%;
 }
@@ -94,7 +94,7 @@ aside {
 #share-facebook {}
 #share-twitter {position: relative; top: -1px;}
 .twitter-share-button {
-	font-size: 11px;	
+	font-size: 11px;
 	color: #000;
 }
 
