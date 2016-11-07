@@ -1,24 +1,4 @@
-# WTF Engine
-
-Inspired by [WhatTheFuckShouldIMakeForDinner.com](http://whatthefuckshouldimakefordinner.com/), in 2011 I made [WhatTheFuckIsMyMashup.com](http://whatthefuckismymashup.com/) and released this simple tool, the [WTFEngine](https://github.com/soulwire/WTFEngine/), for generating similar websites.
-
-It's very simple to use and now allows you to populate it using either vanilla JavaScript objects, JSON files or direct feeds from Google spreadsheets.
-
-## How to use it
-
-To make your own, simply [clone](github-mac://openRepo/https://github.com/soulwire/WTFEngine) or [download](https://github.com/soulwire/WTFEngine/archive/master.zip) this repository and start populating the engine with your content.
-
-You can populate it using one of three different methods. Each is controlled from [`main.js`](https://github.com/soulwire/WTFEngine/blob/master/scripts/main.js) (where you will find commented examples of each technique.)
-
-1. JavaScript Object literal
-2. A JSON file
-3. A live feed from a Google spreadsheet
-
-If you choose to use a Google spreadsheet, you must [publish it first](https://support.google.com/drive/answer/37579?hl=en) and be sure to manually republish it after editing if you want changes to propagate immediately, otherwise they will take around 15 minutes.
-
-Here's an [example spreadsheet](https://docs.google.com/a/soulwire.co.uk/spreadsheet/ccc?key=0AvG1Hx204EyydF9ub1M2cVJ3Z1VGdDhTSWg0ZV9LNGc), which you can clone and use a base for your data source.
-
-_**Note**: For local testing (when using loaded JSON or Google spreadsheet data), you'll need to serve the site from a local webserver. You can easily do this using tools like [SimpleHTTPServer](http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python) for Python or [http-server](https://github.com/nodeapps/http-server) for Node._
+# WTF is my Startup?
 
 ## How it works
 
@@ -31,12 +11,12 @@ For example, here is a basic corpus
         animal: [ "dog", "cat", "rabbit" ],
         color: [ "red", "blue", "green", "yellow" ]
     };
-    
+
 As you can see, in a template you use the __@__ symbol, followed by the type of word you wish to use to tell the WTF Engine to pick a random word of that type from the corpus and insert it at that point.
 
 ## Showcase
 
-I've been pleasantly surprised to find several people using this template to create their own sites. Among them are:
+Check out all these other great WTFEngine projects around the web:
 
 - [WTF Are My Weekend Plans](www.wtfplans.com)
 - [What The Fuck Is My Hydration Strategy](http://theplan.co.uk/hydration/)
@@ -70,9 +50,7 @@ I've been pleasantly surprised to find several people using this template to cre
 - [Shit PR Ideas](http://shitprideas.com/)
 - [What the Fuck is my Mashup](http://whatthefuckismymashup.com/)
 
-If you have made one, or know of any, please [let me know](https://github.com/soulwire/WTFEngine/issues/new).
 
 ## Notes
 
-This was written simply as a bit of fun. Zach's site was so popular that it inspired references based on other subjects, such as [What The Fuck Is My Social Media Strategy?](http://whatthefuckismysocialmediastrategy.com) (and consequently [What The Fuck Is My Mashup?](http://whatthefuckismymashup.com/)). As far as I am aware, this idea was Zach's alone and so credit to him for the inspiration. As a meme, there are doubtlessly many topics that could do with the WTF treatment; which is why I decided to create this (very) simple platform.
-
+This project was based upon the original WTFEngine, [which you can find here](https://github.com/soulwire/WTFEngine). The only things I changed are the seeds for the text and the site style.

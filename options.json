@@ -1,0 +1,78 @@
+{
+    "heading": [
+        "You think your shit startup has potential? Here's mine:",
+        "Here's an idea worth a million fucking dollars:",
+        "This shit has even more potential than Google:",
+    ],
+
+    "response": [
+        "This shit sucks...",
+        "I'm not trying to make another Zune here...",
+        "This sounds worse than Windows Vista",
+        "I can't afford a failure like this...",
+        "Nelson Bighetti had better ideas...",
+        "This is worse than that compression shit from Hooli..."
+    ],
+
+    "template": [
+        "An site that allows @userbase to gather metrics on @buzznoun in order to @buzzverb their @buzzpossessive",
+        "An app provides @userbase the ability to @buzzverb their @buzzpossessive using @buzznoun.",
+        "A @buzznoun SaaS product for @userbase to effectively @buzzverb its @buzzpossessive."
+    ],
+
+    "userbase": [
+        "enterprise-scale businesses",
+        "casual users",
+        "millenials",
+        "baby boomers",
+        "gen xers",
+        "illegal immigrants",
+        "space aliens",
+        "tech startups",
+        "social media users",
+        "disabled veterans",
+        "humanitarian organizations",
+        "non-profit corporations"
+    ],
+
+    "buzzverb": [
+        "optimize",
+        "scale",
+        "expand",
+        "analyze",
+        "grow",
+        "integrate",
+        "drive"
+    ],
+
+    "buzznoun": [
+        "UI/UX design",
+        "user interaction metrics",
+        "click through rate",
+        "machine learning",
+        "open-source",
+        "user metrics",
+        "profit margins",
+        "cloud computing",
+        "copyfraud",
+        "digital rights management",
+        "customer relationship management",
+        "intelligent automation",
+    ],
+
+    "buzzpossessive": [
+        "userbase",
+        "legal assets",
+        "client interactions",
+        "daily active users",
+        "profit margins",
+        "public image",
+        "professional connections",
+        "average expenses",
+        "minimum viable products",
+        "dress code",
+        "employee retention rate",
+        "annual revenue",
+        "shareholder confidence"
+    ]
+}
