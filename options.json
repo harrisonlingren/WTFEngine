@@ -32,7 +32,7 @@
         "social media users",
         "disabled veterans",
         "humanitarian organizations",
-        "non-profit corporations"
+        "non-profit organizations"
     ],
 
     "buzzverb": [
@@ -42,7 +42,11 @@
         "analyze",
         "grow",
         "integrate",
-        "drive"
+        "drive",
+        "influence",
+        "improve",
+        "empower",
+        "innovate"
     ],
 
     "buzznoun": [
@@ -57,7 +61,10 @@
         "copyfraud",
         "digital rights management",
         "customer relationship management",
-        "intelligent automation"
+        "intelligent automation",
+        "synergy",
+        "viral marketing",
+        "organic growth"
     ],
 
     "buzzpossessive": [
@@ -73,6 +80,7 @@
         "dress code",
         "employee retention rate",
         "annual revenue",
-        "shareholder confidence"
+        "shareholder confidence",
+        "marketshare"
     ]
 }
