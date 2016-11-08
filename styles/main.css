@@ -9,9 +9,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 */
 
 body {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 	height: 100%;
+	background-color: #212121;
+	color: #FFF;
 }
 
 .loading {
@@ -39,12 +41,12 @@ header {
 header h1 {
 	font-size: 60px;
 	line-height: 60px;
-	display: none;
+	margin-bottom: 60px;
 }
 
 #output {
-	font-size: 48px;
-	line-height: 48px;
+	font-size: 40px;
+	line-height: 40px;
 	margin: 60px 0;
 }
 
@@ -76,7 +78,7 @@ noscript {
 
 #generate:hover {
 	text-decoration: underline;
-	color: black;
+	color: #000;
 }
 
 aside {
@@ -104,7 +106,7 @@ footer {
 	text-align: right;
 	line-height: 16px;
 	font-size: 12px;
-	color: #666;
+	color: #999;
 	margin: 12px 24px;
 	bottom: 0;
 	right: 0;
