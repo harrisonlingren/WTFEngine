@@ -73,12 +73,12 @@ noscript {
 #generate {
 	text-decoration: none;
 	font-size: 20px;
-	color: #000;
+	color: #FFF;
 }
 
 #generate:hover {
 	text-decoration: underline;
-	color: #000;
+	color: #999;
 }
 
 aside {
@@ -97,7 +97,7 @@ aside {
 #share-twitter {position: relative; top: -1px;}
 .twitter-share-button {
 	font-size: 11px;
-	color: #000;
+	color: #999;
 }
 
 footer {
@@ -114,7 +114,7 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: #000;
+	color: #999;
 }
 
 footer a:hover {
