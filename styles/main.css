@@ -38,9 +38,9 @@ header {
 }
 
 header h1 {
-	font-size: 60px;
-	line-height: 60px;
-	margin-bottom: 60px;
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 30px;
 }
 
 #output {
@@ -123,5 +123,17 @@ footer a:hover {
 @media screen and (max-width: 789px) {
 	#wrapper {
 		width: 90%;
+	}
+
+	#output {
+		font-size: 24px;
+		line-height: 24px;
+		margin: 24px 0;
+	}
+
+	header h1 {
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 18px;
 	}
 }
